@@ -1,0 +1,11 @@
+.Button {
+	-fx-background-radius: 18px;
+	-fx-background-color: rgb(255, 255, 255);
+	-fx-opacity: 70%;
+}
+
+.AnchorPane {
+	-fx-background-image: url(/imgs/R2.jpg);
+	-fx-background-position: center bottom;
+	-fx-background-size: cover;
+}
