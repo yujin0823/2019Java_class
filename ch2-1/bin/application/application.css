@@ -1,0 +1,19 @@
+.Main {
+	-fx-background-image: url(/imgs/R.jpg);
+	-fx-background-position: center bottom;
+	-fx-background-size: cover;
+}
+
+.Start {
+	-fx-background-color: rgb(255, 0, 0);
+	-fx-text-fill: rgb(247, 180, 176);
+}
+
+.Stop {
+	-fx-background-color: rgb(26, 125, 66);
+	-fx-text-fill: rgb(107, 227, 113);
+}
+
+.Stop:hover {
+	-fx-background-color: rgb(4, 97, 26);
+}
