@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.gondr.views.MainController">
+   <children>
+      <Canvas fx:id="gameCanvas" height="560.0" layoutX="14.0" layoutY="22.0" width="282.0" />
+      <Button layoutX="322.0" layoutY="491.0" mnemonicParsing="false" onMouseClicked="#gameStart" prefHeight="42.0" prefWidth="164.0" text="Start" />
+      <Label fx:id="scoreLabel" layoutX="322.0" layoutY="15.0" prefHeight="42.0" prefWidth="172.0" text="Score : 0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ListView fx:id="topScoreList" layoutX="322.0" layoutY="239.0" prefHeight="246.0" prefWidth="164.0" />
+      <Label layoutX="362.0" layoutY="217.0" text="Top 10 Score" />
+      <Canvas fx:id="nextBlockCanvas" height="200.0" layoutX="57.0" layoutY="591.0" width="193.0" />
+      <Canvas fx:id="nextBlock2Canvas" height="200.0" layoutX="293.0" layoutY="591.0" width="193.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="591.0" prefHeight="148.0" prefWidth="40.0" text="next" />
+      <Label alignment="CENTER" layoutX="254.0" layoutY="591.0" prefHeight="148.0" prefWidth="34.0" text="next" />
+      <Button layoutX="322.0" layoutY="540.0" mnemonicParsing="false" onMouseClicked="#stop" prefHeight="42.0" prefWidth="77.0" text="stop" />
+      <Button layoutX="408.0" layoutY="540.0" mnemonicParsing="false" onMouseClicked="#reset" prefHeight="42.0" prefWidth="77.0" text="reset" />
+   </children>
+</AnchorPane>
